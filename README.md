@@ -49,6 +49,13 @@ While this implementation presented significant challenges, I focused on incorpo
 ![alt text](pruning.webp)
 The pruning implementations utilize `torch-pruning` and are built upon the official implementations of each repository. Each pruning repository includes detailed instructions for customizing the pruning process according to your requirements.
 
+### Channel-Pruning-EfficientNetV2
+[![GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/amitpant7/Channel-Pruning-EfficientNetV2)
+
+I pruned 88% of channels of efficientNetV2 using LAMP pruning resulting 14x sammler model, 2.5x faster in inference, 14x fewer parameters & 2.5x fewer MACops. The loss on accuracy was somewhat 2% only.
+
+After that I replaced all the SiLU and sigmoid layers with Hard Swish and Hardsigmoid as the model is to be deployed in FPGA.
+
 ### YOLOv5 Pruning
 [![GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/amitpant7/Yolov5_prune)
 

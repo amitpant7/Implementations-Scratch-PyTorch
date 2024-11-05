@@ -1,5 +1,5 @@
 # Paper Replication from Scratch on PyTorch
-
+![alt text](det.png)
 
 This repository contains listing of paper replications different classification and object detection from scratch using PyTorch. Below, you’ll find a list of all the networks I have implemented, along with links to each respective repository.
 
@@ -46,6 +46,7 @@ While this implementation presented significant challenges, I focused on incorpo
 --- 
 
 ## Model Pruning
+![alt text](pruning.webp)
 The pruning implementations utilize `torch-pruning` and are built upon the official implementations of each repository. Each pruning repository includes detailed instructions for customizing the pruning process according to your requirements.
 
 ### YOLOv5 Pruning

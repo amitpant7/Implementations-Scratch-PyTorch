@@ -1,7 +1,7 @@
 # Paper Replication from Scratch using PyTorch
 ![alt text](det.png)
 
-This repository contains listing of paper replications different classification and object detection from scratch using PyTorch. Below, you’ll find a list of all the networks I have implemented, along with links to each respective repository.
+This repository contains listing of paper replicationsof  different classification and object detection from scratch using PyTorch. Below, you’ll find a list of all the networks I have implemented, along with links to each respective repository.
 
 Each implementation features model definitions, custom loss functions, training and evaluation scripts, and visualizations. 
 
